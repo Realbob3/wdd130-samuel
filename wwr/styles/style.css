@@ -69,6 +69,37 @@ nav a:hover{
     grid-template-columns: repeat(10, 1fr);
 }
 
+.river-grid{
+    display:grid;
+    grid-template-columns: repeat(10. 1fr);
+}
+.rafting-card{
+    margin: 200px 0;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.narrow-card{
+    margin: 800px 0;
+    margin-right: 70px;
+    grid-column: 5/10;
+    grid-row: 2/3;
+}
+.rivers-msg{
+    margin: 200px;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 2/3;
+}
+.rivers-msg2{
+    margin-top: 1000px;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    
+}
+
 h4{
     color: brown;
 }
@@ -123,6 +154,7 @@ main section img{
     grid-column: 1/11;
     grid-row: 4/9;
 }
+
 .msg{
     background-color: aqua;
     line-height: 1.5em;
