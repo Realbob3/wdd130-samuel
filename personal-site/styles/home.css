@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #F1F7ED ;
+    font-family:Ubuntu, libre Baskerville;
+    padding: 0;
+}
+header{
+    background-color: #FF92C2 ;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: #2E282A ;
+    text-decoration: none;
+    padding: 35px;
+
+}
+
+nav a:hover{
+    background-color: #F1F7ED ;
+    color: #2E282A ;
+}
+.logo{
+    margin-top: -40px;
+    width: 150px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.home-grid{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.home-title{
+    color: #2E282A ;
+    font-size: 2em;
+    font-family: Unbuntu;
+    margin-top: 10px;
+}
+
+
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    margin-left: 600px;
+    text-align: center;
+}
+
+#hero-msg h1{
+    text-align: center;
+    
+}
+
+#hero-msg h4{
+    text-align: center;
+    font-family:Unbuntu;
+    color:#2E282A 
+}
+#hero-img {
+    width: 200%;
+    margin-left: 600px;
+}
