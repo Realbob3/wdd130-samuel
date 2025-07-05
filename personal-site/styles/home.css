@@ -1,14 +1,22 @@
 body {
     margin: 0;
     text-align: center;
-    background-color: #F1F7ED ;
+    background-color: #FF92C2;
     font-family:Ubuntu, libre Baskerville;
     padding: 0;
 }
 header{
-    background-color: #FF92C2 ;
+    background-color: #FF6B6B;;
     display: grid;
     grid-template-columns: 150px auto;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo{
+    width: 150px;
 }
 nav {
     display:flex;
@@ -27,19 +35,11 @@ nav a:hover{
     background-color: #F1F7ED ;
     color: #2E282A ;
 }
-.logo{
-    margin-top: -40px;
-    width: 150px;
+
+#hero{
+    width: 200px;   
 }
-#logo_link{
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-}
-.home-grid{
-    display:grid;
-    grid-template-columns: repeat(10, 1fr);
-}
+
 .home-title{
     color: #2E282A ;
     font-size: 2em;
@@ -49,11 +49,9 @@ nav a:hover{
 
 
 #hero-msg{
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-    margin-left: 600px;
-    text-align: center;
+    grid-column: 1/5;
+    grid-row: 1/5;
+
 }
 
 #hero-msg h1{
@@ -64,9 +62,46 @@ nav a:hover{
 #hero-msg h4{
     text-align: center;
     font-family:Unbuntu;
-    color:#2E282A 
+    color:#2E282A;
+    font-size: 10em;
 }
 #hero-img {
     width: 200%;
-    margin-left: 600px;
+    margin-left: 600px; 
+}
+.home-hypernova{
+    margin-top: 50px;
+}
+.home-fire{
+    margin-left: -800px;
+    margin-top: -300px;
+    width: 100%;
+}
+footer{
+    background-color: #FF6B6B;
+    color: #2E282A;
+    padding: 25px 50px;
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    color: #2E282A;
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer a:hover{
+    color: #F1F7ED ;
+    
+}
+
+
+footer .social img{
+    padding-top: 15px;
 }
